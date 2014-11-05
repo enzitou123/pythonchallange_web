@@ -1,0 +1,89 @@
+h2 { color: #ddf3ff }
+p {color: #ddf3ff;
+padding: 5em}
+
+#slideshow-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:50px ;
+    height: 27em;
+    width: 50em;
+    background-color: #060636;
+}
+
+#slideshow-inner>ul {
+    list-style: none;
+    height: 100%;
+    width: 500%;
+    position: relative;
+    left: 0px;
+    transition: left .8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+#slideshow-inner>ul>li {
+    width: 20%;
+    height: 320px;
+    float:right;
+    position: relative;
+}
+
+#slideshow-wrap input[type=radio] {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    z-index: 100;
+    visibility: hidden;
+}
+
+/*properties of the buttons*/
+
+#slideshow-wrap label {
+    position: absolute;
+    left: 50%;
+    z-index: 100;
+    bottom: 135px;
+    width: 15px;
+    height: 15px;
+    border-width: medium;
+    border-radius: 50%;
+    cursor:pointer;
+    box-shadow: 0px 0px 5px;
+    transition: background-color .2s;
+}
+/*here is the background of the buttons*/
+
+#slideshow-wrap input[type=radio]#button-1:checked~label[for=button-1] { background-color: grey }
+
+#slideshow-wrap input[type=radio]#button-2:checked~label[for=button-2] { background-color: grey }
+
+#slideshow-wrap input[type=radio]#button-3:checked~label[for=button-3] { background-color: grey }
+
+#slideshow-wrap input[type=radio]#button-4:checked~label[for=button-4] { background-color: grey }
+
+#slideshow-wrap input[type=radio]#button-5:checked~label[for=button-5] { background-color: grey }
+
+
+
+
+#slideshow-wrap label[for=button-1] { margin-left: -36px }
+
+#slideshow-wrap label[for=button-2] { margin-left: -18px }
+
+#slideshow-wrap label[for=button-3] { margin-left: 0px }
+
+#slideshow-wrap label[for=button-4] { margin-left: 18px }
+
+#slideshow-wrap label[for=button-5] { margin-left: 36px }
+
+
+/* here is the text moving to one size*/
+#slideshow-wrap input[type=radio]#button-1:checked~#slideshow-inner>ul { left: 0 }
+
+#slideshow-wrap input[type=radio]#button-2:checked~#slideshow-inner>ul { left: -100% }
+
+#slideshow-wrap input[type=radio]#button-3:checked~#slideshow-inner>ul { left: -200% }
+
+#slideshow-wrap input[type=radio]#button-4:checked~#slideshow-inner>ul { left: -300% }
+
+#slideshow-wrap input[type=radio]#button-5:checked~#slideshow-inner>ul { left: -400% }
+

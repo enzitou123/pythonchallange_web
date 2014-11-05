@@ -1,0 +1,71 @@
+/*css file*/
+
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+* {margin-top: 0em;}
+h1 {
+    font-family: 'Pacifico', sans-serif;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    font-size: 5em;
+    color: #003857;
+    text-shadow: 1px 1px 2px #db7474;
+
+  
+}
+
+h2 {
+    font-family: Gloria Hallelujah;
+    font-size: 2em;
+}
+p{
+    font-family: Gloria Hallelujah;
+    text-align: center;
+    
+}
+
+html {
+  background-color: #ddf3ff;
+}
+
+#menu{
+    margin-top: 0em;
+    text-align: center
+}
+
+#menu li {
+    display:inline;
+	border-radius: 50px 100px 100px 0;
+    background: #ff8282;
+    border-style:groove;
+    border-width:medium;
+    border-color: #be0000;
+    width: 3em;
+    height: 2em;
+    font-family: Shadows Into Light;
+    font-size: 3em;
+
+    
+}
+
+#menu ul {
+    padding: 1em;
+}
+
+#menu a {
+	display:inline;
+	padding: 15px 20px;
+	color: #000;
+	text-decoration: none;
+}
+#menu li:hover {
+	background-color: #000;
+}
+#menu a:hover
+{
+    color: #fffefe;
+    
+}
