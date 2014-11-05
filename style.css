@@ -1,4 +1,6 @@
 /*css file*/
+/*template from http://codepen.io/CNamor/*/
+/*http://www.pythonchallenge.com/faq.php  -- this is the original page*/
 
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
@@ -19,11 +21,13 @@ h1 {
 
 h2 {
     font-family: Gloria Hallelujah;
-    font-size: 2em;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1.5em;
+    margin-right: 2em
 }
 p{
     font-family: Gloria Hallelujah;
-    text-align: center;
     
 }
 

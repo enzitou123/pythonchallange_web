@@ -1,13 +1,13 @@
 h2 { color: #ddf3ff }
 p {color: #ddf3ff;
-padding: 5em}
+padding: 3em}
 
 #slideshow-wrap {
     margin-left: auto;
     margin-right: auto;
     border-radius:50px ;
-    height: 27em;
-    width: 50em;
+    height: 25em;
+    width: 48em;
     background-color: #060636;
 }
 
@@ -28,20 +28,20 @@ padding: 5em}
 }
 
 #slideshow-wrap input[type=radio] {
-    position: absolute;
+    position: fixed;
     left: 50%;
     bottom: 15px;
-    z-index: 100;
     visibility: hidden;
+    
 }
 
 /*properties of the buttons*/
 
 #slideshow-wrap label {
-    position: absolute;
-    left: 50%;
+    position:absolute;
+    left:50% ;
     z-index: 100;
-    bottom: 135px;
+    bottom: 4em;
     width: 15px;
     height: 15px;
     border-width: medium;
@@ -86,4 +86,5 @@ padding: 5em}
 #slideshow-wrap input[type=radio]#button-4:checked~#slideshow-inner>ul { left: -300% }
 
 #slideshow-wrap input[type=radio]#button-5:checked~#slideshow-inner>ul { left: -400% }
+
 
